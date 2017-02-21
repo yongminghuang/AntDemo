@@ -1,0 +1,90 @@
+com.example.sortlistview.ActivityAddFriends -> com.example.sortlistview.ActivityAddFriends:
+    android.widget.ListView sortListView -> a
+    com.example.sortlistview.SideBar sideBar -> b
+    android.widget.TextView dialog -> c
+    com.example.sortlistview.SortGroupMemberAdapter adapter -> d
+    com.example.sortlistview.ClearEditText mClearEditText -> e
+    android.widget.LinearLayout titleLayout -> f
+    android.widget.TextView title -> g
+    android.widget.TextView tvNofriends -> h
+    int lastFirstVisibleItem -> i
+    com.example.sortlistview.CharacterParser characterParser -> j
+    java.util.List SourceDateList -> k
+    com.example.sortlistview.PinyinComparator pinyinComparator -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    java.lang.Object[] getSections() -> getSections
+    int getSectionForPosition(int) -> getSectionForPosition
+    int getPositionForSection(int) -> getPositionForSection
+    com.example.sortlistview.SortGroupMemberAdapter access$000(com.example.sortlistview.ActivityAddFriends) -> a
+    android.widget.ListView access$100(com.example.sortlistview.ActivityAddFriends) -> b
+    int access$200(com.example.sortlistview.ActivityAddFriends) -> c
+    android.widget.LinearLayout access$300(com.example.sortlistview.ActivityAddFriends) -> d
+    java.util.List access$400(com.example.sortlistview.ActivityAddFriends) -> e
+    android.widget.TextView access$500(com.example.sortlistview.ActivityAddFriends) -> f
+    int access$202(com.example.sortlistview.ActivityAddFriends,int) -> a
+    void access$600(com.example.sortlistview.ActivityAddFriends,java.lang.String) -> a
+com.example.sortlistview.ActivityAddFriends$2 -> com.example.sortlistview.a:
+    com.example.sortlistview.ActivityAddFriends this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.example.sortlistview.ActivityAddFriends$3 -> com.example.sortlistview.b:
+    com.example.sortlistview.ActivityAddFriends this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.example.sortlistview.ActivityAddFriends$4 -> com.example.sortlistview.c:
+    com.example.sortlistview.ActivityAddFriends this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.example.sortlistview.CharacterParser -> com.example.sortlistview.d:
+    int[] pyvalue -> a
+    java.lang.String[] pystr -> b
+    java.lang.StringBuilder buffer -> c
+    com.example.sortlistview.CharacterParser characterParser -> d
+    com.example.sortlistview.CharacterParser getInstance() -> a
+    int getChsAscii(java.lang.String) -> b
+    java.lang.String convert(java.lang.String) -> c
+    java.lang.String getSelling(java.lang.String) -> a
+com.example.sortlistview.ClearEditText -> com.example.sortlistview.ClearEditText:
+    android.graphics.drawable.Drawable mClearDrawable -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+    void setClearIconVisible(boolean) -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.example.sortlistview.GroupMemberBean -> com.example.sortlistview.e:
+    java.lang.String name -> a
+    java.lang.String sortLetters -> b
+    java.lang.String getName() -> a
+    void setName(java.lang.String) -> a
+    java.lang.String getSortLetters() -> b
+    void setSortLetters(java.lang.String) -> b
+com.example.sortlistview.PinyinComparator -> com.example.sortlistview.f:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.example.sortlistview.SideBar -> com.example.sortlistview.SideBar:
+    com.example.sortlistview.SideBar$OnTouchingLetterChangedListener onTouchingLetterChangedListener -> a
+    java.lang.String[] b -> b
+    int choose -> c
+    android.graphics.Paint paint -> d
+    android.widget.TextView mTextDialog -> e
+    void setTextView(android.widget.TextView) -> a
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    void setOnTouchingLetterChangedListener(com.example.sortlistview.SideBar$OnTouchingLetterChangedListener) -> a
+com.example.sortlistview.SideBar$OnTouchingLetterChangedListener -> com.example.sortlistview.g:
+    com.example.sortlistview.ActivityAddFriends this$0 -> a
+    void onTouchingLetterChanged(java.lang.String) -> a
+com.example.sortlistview.SortGroupMemberAdapter -> com.example.sortlistview.h:
+    java.util.List list -> a
+    android.content.Context mContext -> b
+    void updateListView(java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getSectionForPosition(int) -> getSectionForPosition
+    int getPositionForSection(int) -> getPositionForSection
+    java.lang.Object[] getSections() -> getSections
+com.example.sortlistview.SortGroupMemberAdapter$ViewHolder -> com.example.sortlistview.i:
+    android.widget.TextView tvLetter -> a
+    android.widget.TextView tvTitle -> b

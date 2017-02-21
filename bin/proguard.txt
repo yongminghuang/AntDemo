@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:16
+-keep class com.example.sortlistview.ActivityAddFriends { <init>(...); }
+
+# view res/layout/activity_add_friends.xml #generated:7
+-keep class com.example.sortlistview.ClearEditText { <init>(...); }
+
+# view res/layout/activity_add_friends.xml #generated:70
+-keep class com.example.sortlistview.SideBar { <init>(...); }
+
