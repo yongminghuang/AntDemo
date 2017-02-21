@@ -1,8 +1,8 @@
 #ECHO 设置要编译的工程名字
-work_name=AntDemo
+work_name=`basename $basepath`
 
 #ECHO 设置要编译的工程路径，这里要改为自已的编译工程的路径，这里是mac环境的路径
-work_path=/Users/huangym/Downloads/sort/AntDemo/AntDemo
+work_path=$(cd `dirname $0`; pwd)
 
 #apk存放的路径
 apk_file=build_apk
@@ -43,7 +43,7 @@ echo build release success,now,copy apk to new path
 #拷贝到apk和混淆映射到存放路径
 cd bin
 cp ${work_name}-release.apk apk_path
-cp proguard apk_path
+cp -r -f proguard apk_path
 
 cd ..
 
