@@ -1,3 +1,27 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
 com.example.sortlistview.ActivityAddFriends
 com.example.sortlistview.ActivityAddFriends: ActivityAddFriends()
 com.example.sortlistview.ClearEditText
@@ -5,6 +29,16 @@ com.example.sortlistview.ClearEditText: ClearEditText(android.content.Context)
 com.example.sortlistview.ClearEditText: ClearEditText(android.content.Context,android.util.AttributeSet)
 com.example.sortlistview.ClearEditText: ClearEditText(android.content.Context,android.util.AttributeSet,int)
 com.example.sortlistview.SideBar
+com.example.sortlistview.SideBar: com.example.sortlistview.SideBar$OnTouchingLetterChangedListener onTouchingLetterChangedListener
+com.example.sortlistview.SideBar: java.lang.String[] b
+com.example.sortlistview.SideBar: int choose
+com.example.sortlistview.SideBar: android.graphics.Paint paint
+com.example.sortlistview.SideBar: android.widget.TextView mTextDialog
+com.example.sortlistview.SideBar: void setTextView(android.widget.TextView)
 com.example.sortlistview.SideBar: SideBar(android.content.Context,android.util.AttributeSet,int)
 com.example.sortlistview.SideBar: SideBar(android.content.Context,android.util.AttributeSet)
 com.example.sortlistview.SideBar: SideBar(android.content.Context)
+com.example.sortlistview.SideBar: void onDraw(android.graphics.Canvas)
+com.example.sortlistview.SideBar: boolean dispatchTouchEvent(android.view.MotionEvent)
+com.example.sortlistview.SideBar: void setOnTouchingLetterChangedListener(com.example.sortlistview.SideBar$OnTouchingLetterChangedListener)
+com.example.sortlistview.SideBar: void <clinit>()

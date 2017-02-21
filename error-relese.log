@@ -14,23 +14,23 @@
  [checkenv] Installed at /Users/huangym/Documents/soft/android-sdk-macosx
 
 -setup:
-     [echo] Project Name: SortListView
+     [echo] Project Name: AntDemo
   [gettype] Project Type: Application
 
 -build-setup:
 [getbuildtools] Using latest Build Tools: 24.0.1
      [echo] Switching between debug and non debug build: Deleting previous compilation output...
-   [delete] Deleting directory /Users/huangym/Downloads/sort/SortListView/SortListView/bin/classes
-     [echo] Resolving Build Target for SortListView...
+   [delete] Deleting directory /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/classes
+     [echo] Resolving Build Target for AntDemo...
 [gettarget] Project Target:   Android 4.4.2
 [gettarget] API level:        19
      [echo] ----------
      [echo] Creating output directories if needed...
-    [mkdir] Created dir: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/rsObj
-    [mkdir] Created dir: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/rsLibs
-    [mkdir] Created dir: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/classes
+    [mkdir] Created dir: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/rsObj
+    [mkdir] Created dir: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/rsLibs
+    [mkdir] Created dir: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/classes
      [echo] ----------
-     [echo] Resolving Dependencies for SortListView...
+     [echo] Resolving Dependencies for AntDemo...
 [dependency] Library dependencies:
 [dependency] No Libraries
 [dependency] 
@@ -56,334 +56,353 @@
 -pre-compile:
 
 -compile:
-    [javac] Compiling 9 source files to /Users/huangym/Downloads/sort/SortListView/SortListView/bin/classes
+    [javac] Compiling 9 source files to /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/classes
     [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
     [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
     [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	   ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	        ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	         ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	          ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	            ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	              ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                 ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                  ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                   ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                     ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                       ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                         ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                          ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                            ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                             ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                               ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:37: warning: unmappable character for encoding UTF-8
     [javac] 	 * �ϴε�һ���ɼ�Ԫ�أ����ڹ���ʱ��¼��ʶ��
     [javac] 	                                ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	   ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	    ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	     ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	        ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	         ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	          ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	           ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	             ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	              ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	               ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	                ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	                 ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:41: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ת����ƴ������
     [javac] 	                  ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	   ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	    ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	     ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	        ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	         ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	          ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	           ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	            ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	             ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	              ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	               ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                        ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                         ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                          ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                           ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                            ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                             ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                              ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                               ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                                ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                                 ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:47: warning: unmappable character for encoding UTF-8
     [javac] 	 * ����ƴ��������ListView�����������
     [javac] 	                                  ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		    ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		     ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		       ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		        ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		         ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		          ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		           ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		              ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		               ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		                ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:63: warning: unmappable character for encoding UTF-8
     [javac] 		// ʵ��������תƴ����
     [javac] 		                 ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		   ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		    ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		     ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		       ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		          ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		           ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		            ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		             ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		              ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:72: warning: unmappable character for encoding UTF-8
     [javac] 		// �����Ҳഥ������
     [javac] 		               ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				   ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				    ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				     ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				        ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				           ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				            ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				              ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				                ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:77: warning: unmappable character for encoding UTF-8
     [javac] 				// ����ĸ�״γ��ֵ�λ��
     [javac] 				                 ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
     [javac] 				// ����Ҫ����adapter.getItem(position)����ȡ��ǰposition����Ӧ�Ķ���
     [javac] 				   ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
     [javac] 				// ����Ҫ����adapter.getItem(position)����ȡ��ǰposition����Ӧ�Ķ���
     [javac] 				    ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
     [javac] 				// ����Ҫ����adapter.getItem(position)����ȡ��ǰposition����Ӧ�Ķ���
     [javac] 				     ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
     [javac] 				// ����Ҫ����adapter.getItem(position)����ȡ��ǰposition����Ӧ�Ķ���
     [javac] 				      ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
     [javac] 				// ����Ҫ����adapter.getItem(position)����ȡ��ǰposition����Ӧ�Ķ���
     [javac] 				        ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
     [javac] 				// ����Ҫ����adapter.getItem(position)����ȡ��ǰposition����Ӧ�Ķ���
     [javac] 				         ^
-    [javac] /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
+    [javac] /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/ActivityAddFriends.java:92: warning: unmappable character for encoding UTF-8
     [javac] 				// ����Ҫ����adapter.getItem(position)����ȡ��ǰposition����Ӧ�Ķ���
     [javac] 				          ^
-    [javac] Note: /Users/huangym/Downloads/sort/SortListView/SortListView/src/com/example/sortlistview/SideBar.java uses or overrides a deprecated API.
+    [javac] Note: /Users/huangym/Downloads/sort/AntDemo/AntDemo/src/com/example/sortlistview/SideBar.java uses or overrides a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
     [javac] 100 warnings
 
 -post-compile:
 
 -obfuscate:
-    [mkdir] Created dir: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/proguard
-      [jar] Building jar: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/proguard/original.jar
+    [mkdir] Created dir: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard
+      [jar] Building jar: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/original.jar
  [proguard] ProGuard, version 4.7
- [proguard] Reading program jar [/Users/huangym/Downloads/sort/SortListView/SortListView/bin/proguard/original.jar]
- [proguard] Reading program jar [/Users/huangym/Downloads/sort/SortListView/SortListView/libs/android-support-v4.jar]
+ [proguard] Reading input...
+ [proguard] Reading program jar [/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/original.jar]
+ [proguard] Reading program jar [/Users/huangym/Downloads/sort/AntDemo/AntDemo/libs/android-support-v4.jar]
  [proguard] Reading library jar [/Users/huangym/Documents/soft/android-sdk-macosx/platforms/android-19/android.jar]
- [proguard] Preparing output jar [/Users/huangym/Downloads/sort/SortListView/SortListView/bin/proguard/obfuscated.jar]
- [proguard]   Copying resources from program jar [/Users/huangym/Downloads/sort/SortListView/SortListView/bin/proguard/original.jar]
- [proguard]   Copying resources from program jar [/Users/huangym/Downloads/sort/SortListView/SortListView/libs/android-support-v4.jar]
+ [proguard] Initializing...
+ [proguard] Note: the configuration keeps the entry point 'com.example.sortlistview.SideBar { void setOnTouchingLetterChangedListener(com.example.sortlistview.SideBar$OnTouchingLetterChangedListener); }', but not the descriptor class 'com.example.sortlistview.SideBar$OnTouchingLetterChangedListener'
+ [proguard] Note: there were 1 unkept descriptor classes in kept class members.
+ [proguard]       You should consider explicitly keeping the mentioned classes
+ [proguard]       (using '-keep').
+ [proguard] Ignoring unused library classes...
+ [proguard]   Original number of library classes: 3412
+ [proguard]   Final number of library classes:    510
+ [proguard] Printing kept classes, fields, and methods...
+ [proguard] Shrinking...
+ [proguard] Printing usage to [/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/usage.txt]...
+ [proguard] Removing unused program classes and class elements...
+ [proguard]   Original number of program classes: 332
+ [proguard]   Final number of program classes:    148
+ [proguard] Obfuscating...
+ [proguard] Printing mapping to [/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/mapping.txt]...
+ [proguard] Writing output...
+ [proguard] Preparing output jar [/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/obfuscated.jar]
+ [proguard]   Copying resources from program jar [/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/original.jar]
+ [proguard]   Copying resources from program jar [/Users/huangym/Downloads/sort/AntDemo/AntDemo/libs/android-support-v4.jar]
  [proguard] Warning: can't write resource [META-INF/MANIFEST.MF] (Duplicate zip entry [android-support-v4.jar:META-INF/MANIFEST.MF])
+ [proguard] Printing classes to [/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/dump.txt]...
 
 -dex:
-      [dex] input: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/proguard/obfuscated.jar
+      [dex] input: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/obfuscated.jar
       [dex] Found new input file
-      [dex] Converting compiled files and external libraries into /Users/huangym/Downloads/sort/SortListView/SortListView/bin/classes.dex...
+      [dex] Converting compiled files and external libraries into /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/classes.dex...
 
 -crunch:
-   [crunch] Crunching PNG Files in source dir: /Users/huangym/Downloads/sort/SortListView/SortListView/res
-   [crunch] To destination dir: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/res
-   [crunch] Processing image to cache: /Users/huangym/Downloads/sort/SortListView/SortListView/res/drawable-hdpi/search_bar_edit_normal.9.png => /Users/huangym/Downloads/sort/SortListView/SortListView/bin/res/drawable-hdpi/search_bar_edit_normal.9.png
-   [crunch] Processing image to cache: /Users/huangym/Downloads/sort/SortListView/SortListView/res/drawable-hdpi/search_bar_edit_pressed.9.png => /Users/huangym/Downloads/sort/SortListView/SortListView/bin/res/drawable-hdpi/search_bar_edit_pressed.9.png
+   [crunch] Crunching PNG Files in source dir: /Users/huangym/Downloads/sort/AntDemo/AntDemo/res
+   [crunch] To destination dir: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/res
+   [crunch] Processing image to cache: /Users/huangym/Downloads/sort/AntDemo/AntDemo/res/drawable-hdpi/search_bar_edit_normal.9.png => /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/res/drawable-hdpi/search_bar_edit_normal.9.png
+   [crunch] Processing image to cache: /Users/huangym/Downloads/sort/AntDemo/AntDemo/res/drawable-hdpi/search_bar_edit_pressed.9.png => /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/res/drawable-hdpi/search_bar_edit_pressed.9.png
    [crunch] Crunched 2 PNG files to update cache
-   [crunch] ERROR: 9-patch image /Users/huangym/Downloads/sort/SortListView/SortListView/res/drawable-hdpi/search_bar_edit_normal.9.png malformed.
+   [crunch] ERROR: 9-patch image /Users/huangym/Downloads/sort/AntDemo/AntDemo/res/drawable-hdpi/search_bar_edit_normal.9.png malformed.
    [crunch]        Frame pixels must be either solid or transparent (not intermediate alphas).
    [crunch]        Found at pixel #15 along top edge.
-   [crunch] ERROR: 9-patch image /Users/huangym/Downloads/sort/SortListView/SortListView/res/drawable-hdpi/search_bar_edit_pressed.9.png malformed.
+   [crunch] ERROR: 9-patch image /Users/huangym/Downloads/sort/AntDemo/AntDemo/res/drawable-hdpi/search_bar_edit_pressed.9.png malformed.
    [crunch]        Frame pixels must be either solid or transparent (not intermediate alphas).
    [crunch]        Found at pixel #15 along top edge.
 
@@ -393,7 +412,7 @@
 
 -package:
 [apkbuilder] Current build type is different than previous build: forced apkbuilder run.
-[apkbuilder] Creating SortListView-release-unsigned.apk for release...
+[apkbuilder] Creating AntDemo-release-unsigned.apk for release...
 
 -post-package:
 
@@ -404,15 +423,15 @@
 -release-sign:
      [echo] Signing final apk...
  [zipalign] Running zip align on final apk...
-     [echo] Release Package: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/SortListView-release.apk
-[propertyfile] Updating property file: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/build.prop
-[propertyfile] Updating property file: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/build.prop
-[propertyfile] Updating property file: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/build.prop
-[propertyfile] Updating property file: /Users/huangym/Downloads/sort/SortListView/SortListView/bin/build.prop
+     [echo] Release Package: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/AntDemo-release.apk
+[propertyfile] Updating property file: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/build.prop
+[propertyfile] Updating property file: /Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/build.prop
 
 -post-build:
 
 release:
 
 BUILD SUCCESSFUL
-Total time: 4 seconds
+Total time: 5 seconds

@@ -1,2 +1,2 @@
-/Users/huangym/Downloads/sort/SortListView/SortListView/bin/classes.dex : \
-/Users/huangym/Downloads/sort/SortListView/SortListView/bin/proguard/obfuscated.jar \
+/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/classes.dex : \
+/Users/huangym/Downloads/sort/AntDemo/AntDemo/bin/proguard/obfuscated.jar \
